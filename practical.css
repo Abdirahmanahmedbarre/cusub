@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: blueviolet;
+    color: white;
+    padding: 15PX 25px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
+    
+}
+
+.navi{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    font-size: 30px;
+    /* background-color: black; */
+}
+
+.navi li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navi li a:hover{
+color:rgb(210, 210, 23);
+background-color: rgb(100, 13, 13);
+border-radius: 10px;
+padding: 5px 10px;
+
+}
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+     padding: 5rem 7rem;
+    background-color:  black;
+    color: white;
+    /* max-width: 500px;  */
+}
+.home-content{
+    max-width: 500px;
+    align-items: center;
+}
+
+.home-content h1{
+    font-size: 3em;
+    margin-bottom: 1rem;
+}
+.home-content p{
+    font-size: 14px;
+    margin-bottom: 1rem;
+
+}
+
+.btn{
+   display: inline-block;
+   text-decoration: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   color: yellow;
+   background-color: brown;
+   font-size: 20px;
+    font-weight: bold;
+}
+ .btn:hover{
+    background-color: burlywood;
+    color: white;
+
+ }
+
+ .img img{
+    border-radius: 15px;
+ }
+
+ #sectionla_serviceka{
+    padding: 5rem;
+    background-color: #fff;
+
+ }
+ .service-grid{
+    display: flex;
+    gap: 1.5rem;
+
+ }
+ #services_section h2{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 2rem;
+ }
+ .service
+{
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(46, 45, 45);}
+
+    .service h3{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        padding: 2re,;
+        
+    }
+
+    .service p{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .about_backgroungcolor{
+        background-color: #f9f9f9;
+        padding: 6rem 2rem ;
+        background: url( Bck\ color.png) no-repeat center;
+    }
+
+    .background-image{
+        /* border-radius: 15px;
+        margin: auto; */
+        padding: 2rem;
+
+    }
+    
+    .about_content{
+        position: relative;
+        max-width: 700px;
+        margin: auto;
+        z-index:2 ;
+    }
+    
+    .about_content p{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: rgb(241, 241, 241);
+
+    }
+
+    .about_content h2{
+        color: rgb(241, 241, 241) ;
+    }
+    .contact-section{
+        padding: 4rem 2rem;
+        display: flex;
+        align-items: center;
+        border-top: 1px solid #ddd;
+    }
+
+    .contact-content{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
+    
+    }
+     .contact-image img{
+        width: 100%;
+        max-width: 500px;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgb(0, 0, 0, 0.1);
+     }
+
+     .contact-form-container{
+        max-width: 600px;
+        flex-grow: 1;
+     }
+     
+     .contact-form-container h2{
+        font-size: 2rem;
+        color: #333;
+        margin-bottom: 1rem;
+     }
+
+     .contact-form-container p{
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin-bottom: 2rem;
+     }
+
+     .contact-form{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+
+     }
+
+     .contact-form label{
+        font-size: 1.1rem;
+        color: #333;
+     }
+
+     .contact-form input,
+     .contact-form textarea{
+        width: 100%;
+        padding: 0.75rem;
+        font-size: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+
+     }
+     .contact-form textarea{
+        resize: vertical;
+    
+     }
+
+     .contact-form input:focus,
+     .contact-form textarea:focus{
+        border-color: #4a90e2;
+        outline: none;
+     }
+     .contact-form a{
+        width: 60px;
+
+     }
